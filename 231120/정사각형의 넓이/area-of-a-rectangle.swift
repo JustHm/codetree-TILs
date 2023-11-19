@@ -1,7 +1,5 @@
 let input = Int(readLine()!)!
-if (input*input) < 5 {
+print(input*input)
+if (input*input) <= 5 {
     print("tiny")
-}
-else {
-    print(input*input)
 }
